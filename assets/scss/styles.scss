@@ -1,0 +1,78 @@
+
+
+#header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .header-content {
+    padding: 0;
+  }
+}
+
+#search-input {
+  background: #FFFFFF;
+  background-image : url('icon-search.svg');
+  background-position: 98%; 
+  background-repeat: no-repeat;
+  border: 1px solid #41539D;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 520px;
+}
+
+#header-search-input {
+  background: #F0F5FF;
+  /* Primary/L1 */
+  background-image: url("icon-search.svg");
+  background-position: 98%;
+  background-repeat: no-repeat;
+  border: 1px solid #80ACFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+#brand-logo {
+  witdh: 152px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#page-name {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 24px;
+  color: #20389C;
+  margin-right: 20px;
+}
+
+.main-nav {
+  height: 44px;
+  background: #FDFDFD;
+}
+
+
+.top-nav {
+  border-top: 1px solid rgba(192,192,192, 0.4);
+  border-bottom: 1px solid rgba(192,192,192, 0.4);
+  margin-bottom: 20px;
+}
+
+.advertise-section {
+  padding: 0px 0px 0px 5px;
+}
+
+.advertise {
+  height: 114px;
+}
+
+// .news-photo-item {
+//   padding: 10px;
+// }
+
+.shop-ads {
+  margin-top: 20px;
+  height: 500px;
+}
+
+.youtube-icon {
+  margin-right: 9px;
+}

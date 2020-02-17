@@ -43,8 +43,17 @@
   font-size: 16px;
 }
 
+.nav .nav-item-link i {
+  margin-right: 5px;
+}
+
+.headline {
+  margin-bottom: 30px;
+}
+
 .headline-heading {
   margin: 40px 0px 15px 0px;
+  font-size: 24px;
 }
 
 .headline-card {
@@ -65,7 +74,7 @@
 
 .headline-card .headline-card-list .headline-card-list-item {
   padding-left: 20px;
-  border-left: 2px solid #20389C;
+  border-left: 2px solid #DADEE3;
   color: #A5ABB3;
 }
 
@@ -74,7 +83,11 @@
 }
 
 .headline-card .headline-card-list .headline-card-list-item .headline-card-list-item-link {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.headline-card .headline-card-list .active {
+  border-left: 2px solid #20389C;
 }
 
 .headline-card .headline-card-block {
@@ -114,15 +127,90 @@
   opacity: 0.6;
 }
 
+.section-heading {
+  margin: 15px 0px 15px 0px;
+  font-size: 20px;
+}
+
 .news-section .news-section-news-list .news-section-news-list-item .news-section-news-list-item-title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .news-section .news-section-news-list .news-section-news-list-item .news-section-news-list-item-meta a {
   margin-right: 10px;
+  font-size: 14px;
 }
 
-.content-right-column {
+.news-section .news-section-news-list .news-section-news-list-item .news-number {
+  width: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #004AD7;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.side-content {
   border-left: 1px solid rgba(192, 192, 192, 0.5);
+}
+
+.side-content .news-widget-nav {
+  border-top: 1px solid rgba(192, 192, 192, 0.5);
+  border-bottom: 1px solid rgba(192, 192, 192, 0.5);
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.side-content .news-widget-nav a {
+  padding: 10px 0px 10px 0px;
+}
+
+.side-content .news-widget-nav a img {
+  width: 4px;
+  margin-right: 5px;
+}
+
+.side-content .news-widget-content .news-widget-content-list {
+  margin: 0;
+}
+
+.side-content .news-widget-content .news-widget-content-list .news-widget-content-list-item {
+  margin-bottom: 5px;
+}
+
+.side-content .news-widget-content .news-widget-content-list .news-widget-content-list-item .number {
+  font-size: 14px;
+  color: #004AD7;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.side-content .news-widget-content .news-widget-content-list .news-widget-content-list-item a {
+  font-size: 14px;
+}
+
+.side-content .ads {
+  padding: 10px;
+}
+
+.side-content .ads .ads-column {
+  padding: 0;
+}
+
+.side-content .ads .ads-column img {
+  padding: 5px;
+  width: 100%;
+}
+
+.view-more-button a {
+  margin-right: 5px;
+  color: #004AD7;
+  font-size: 14px;
+}
+
+.view-more-button i {
+  font-size: 14px;
+  color: #004AD7;
 }

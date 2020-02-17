@@ -7,12 +7,14 @@
     <title>mainPage</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/External/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
+    <link rel="stylesheet" href="assets/css/External/Login-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/media-queries.compiled.css">
     <link rel="stylesheet" href="assets/css/mixins.compiled.css">
     <link rel="stylesheet" href="assets/css/Pages/frontPage.compiled.css">
     <link rel="stylesheet" href="assets/css/Pages/frontPage2.compiled.css">
     <link rel="stylesheet" href="assets/css/Pages/mainPage.compiled.css">
+    <link rel="stylesheet" href="assets/css/Pages/searchPage.compiled.css">
     <link rel="stylesheet" href="assets/css/styles.compiled.css">
     <link rel="stylesheet" href="assets/css/variables.compiled.css">
 </head>
@@ -49,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container headline">
             <div class="row headline-row">
                 <div class="col">
                     <h3 class="headline-heading">Headline news</h3>
@@ -58,16 +60,16 @@
             <div class="row d-flex flex-row headline-card">
                 <div class="col-5 d-flex left-column">
                     <ul class="list-unstyled d-flex flex-column justify-content-around headline-card-list">
-                        <li class="headline-card-list-item"><a class="text-black-50" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50" href="#">World</a></li>
-                        <li class="headline-card-list-item"><a class="text-black-50" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50" href="#">World</a></li>
-                        <li class="headline-card-list-item"><a class="text-black-50" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50" href="#">World</a></li>
-                        <li class="headline-card-list-item"><a class="text-black-50" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50" href="#">World</a></li>
+                        <li class="headline-card-list-item active"><a class="text-black-50 headline-card-list-item-text" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50 headline-card-list-item-link" href="#">World</a></li>
+                        <li class="headline-card-list-item"><a class="text-black-50 headline-card-list-item-text" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50 headline-card-list-item-link" href="#">World</a></li>
+                        <li class="headline-card-list-item"><a class="text-black-50 headline-card-list-item-text" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50 headline-card-list-item-link" href="#">World</a></li>
+                        <li class="headline-card-list-item"><a class="text-black-50 headline-card-list-item-text" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam<br></a><a class="text-black-50 headline-card-list-item-link" href="#">World</a></li>
                     </ul>
                 </div>
                 <div class="col-7 align-self-stretch headline-card-block right-column">
                     <div class="d-flex flex-column justify-content-between headline-card-block-image">
                         <a class="text-white" href="#">
-                            <h4 class="text-white headline-card-block-image-heading">Hamza, el hijo favorito de Osama bin Laden al que EE.UU. da por...<br></h4>
+                            <h4 class="text-white headline-card-block-image-heading">Podría firmarse en la APEC Chile: Trump confirma acuerdo para tregua en guerra comercial <br>con China - Biobiochile<br></h4>
                         </a>
                         <ul class="list-unstyled d-flex flex-column justify-content-between headline-card-block-image-list">
                             <li><a class="text-white" href="#">Podría firmarse en la APEC Chile: Trump confirma acuerdo para tregua en guerra comercial con China - Biobiochile<br></a></li>
@@ -83,7 +85,7 @@
                 <div class="col-8">
                     <div class="row section-row">
                         <div class="col">
-                            <h4 class="headline-heading">Worldwide</h4>
+                            <h4 class="section-heading">Worldwide</h4>
                         </div>
                     </div>
                     <div class="row d-flex flex-row align-items-center news-section">
@@ -108,10 +110,30 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="news-section-news-list-item"><a class="text-dark news-section-news-list-item-title" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam dolor eset is...<br></a>
+                                    <div class="news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="news-section-news-list-item"><a class="text-dark news-section-news-list-item-title" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam dolor eset is...<br></a>
+                                    <div class="news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-end">
+                            <div class="view-more-button"><a href="#">View more news</a><i class="fa fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                    <hr>
                     <div class="row section-row">
                         <div class="col">
-                            <h4 class="headline-heading">Sports</h4>
+                            <h4 class="section-heading">Sports</h4>
                         </div>
                     </div>
                     <div class="row d-flex flex-row align-items-center news-section">
@@ -136,9 +158,139 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="news-section-news-list-item"><a class="text-dark news-section-news-list-item-title" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam dolor eset is...<br></a>
+                                    <div class="news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="news-section-news-list-item"><a class="text-dark news-section-news-list-item-title" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam dolor eset is...<br></a>
+                                    <div class="news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-end">
+                            <div class="view-more-button"><a href="#">View more news</a><i class="fa fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row section-row">
+                        <div class="col">
+                            <h4 class="section-heading">Most Engaging News</h4>
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-row align-items-center news-section">
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="d-flex align-items-center news-section-news-list-item"><span class="news-number">1</span>
+                                    <div><a href="#" class="text-dark d-inline news-section-news-list-item-title">Los azules pegaron de entrada: la U está venciendo a Cobresal por 'cuartos' de Copa Chile Lorem ipsum dolor sit amet</a>
+                                        <div class="d-inline news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="d-flex align-items-center news-section-news-list-item"><span class="news-number">2</span>
+                                    <div><a href="#" class="text-dark d-inline news-section-news-list-item-title">Los azules pegaron de entrada: la U está venciendo a Cobresal por 'cuartos' de Copa Chile Lorem ipsum dolor sit amet</a>
+                                        <div class="d-inline news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="d-flex align-items-center news-section-news-list-item"><span class="news-number">3</span>
+                                    <div><a href="#" class="text-dark d-inline news-section-news-list-item-title">Los azules pegaron de entrada: la U está venciendo a Cobresal por 'cuartos' de Copa Chile Lorem ipsum dolor sit amet</a>
+                                        <div class="d-inline news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-section-news-list">
+                                <li class="d-flex align-items-center news-section-news-list-item"><span class="news-number">4</span>
+                                    <div><a href="#" class="text-dark d-inline news-section-news-list-item-title">Los azules pegaron de entrada: la U está venciendo a Cobresal por 'cuartos' de Copa Chile Lorem ipsum dolor sit amet</a>
+                                        <div class="d-inline news-section-news-list-item-meta"><a class="text-black-50" href="#">biobiochile</a><a class="text-black-50" href="#">Vusqua</a><a class="text-black-50" href="#">17:59</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-4 side-content">
+                    <div class="row section-row">
+                        <div class="col d-flex justify-content-between align-items-baseline">
+                            <h4 class="section-heading">Most anticipated news</h4>
+                            <div class="view-more-button"><a href="#">View more news</a><i class="fa fa-angle-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="nav d-flex justify-content-between news-widget-nav">
+                                <li class="nav-item"><a class="nav-link active text-black-50" href="#"><img src="assets/img/simple-dot.svg">World</a></li>
+                                <li class="nav-item"><a class="nav-link text-black-50" href="#"><img src="assets/img/simple-dot.svg">Chile</a></li>
+                                <li class="nav-item"><a class="nav-link text-black-50" href="#"><img src="assets/img/simple-dot.svg">Sports</a></li>
+                                <li class="nav-item"><a class="nav-link text-black-50" href="#"><img src="assets/img/simple-dot.svg">Tech</a></li>
+                                <li class="nav-item"><a class="nav-link text-black-50" href="#"><img src="assets/img/simple-dot.svg">Money</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-row align-items-center news-widget-content">
+                        <div class="col-12 align-self-stretch">
+                            <ul class="list-unstyled d-flex flex-column justify-content-around news-widget-content-list">
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">1</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">2</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">3</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">4</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">5</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">6</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">7</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">8</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">9</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                                <li class="d-flex align-items-baseline news-widget-content-list-item"><span class="number">10</span>
+                                    <div><a href="#" class="text-dark d-inline">un punto de venta de droga en la Isla Santa Ma...</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col"><img src="assets/img/Ads%202.jpg" width="100%"></div>
+                    </div>
+                    <hr>
+                    <div class="row ads">
+                        <div class="col-8 ads-column"><img class="img-fluid" src="assets/img/Ads%203.jpg" width="100%"></div>
+                        <div class="col-4 ads-column"><img class="img-fluid" src="assets/img/Ads%204.jpg"><img class="img-fluid" src="assets/img/Ads%205.jpg"></div>
+                        <div class="col-4 ads-column"><img class="img-fluid" src="assets/img/Ads%206.jpg"></div>
+                        <div class="col-4 ads-column"><img class="img-fluid" src="assets/img/Ads%207.jpg"></div>
+                        <div class="col-4 ads-column"><img class="img-fluid" src="assets/img/Ads%208.jpg"></div>
                     </div>
                 </div>
-                <div class="col-4 content-right-column"></div>
             </div>
         </div>
     </main>

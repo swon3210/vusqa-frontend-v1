@@ -1,0 +1,138 @@
+
+// header block
+
+
+.header-block {
+  background-color: #6098FF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+.header-block-left {
+  padding: 0px 5px 0px 5px;
+  font-size: 14px;
+  
+  .main-issue {
+    padding: 10px;
+  }
+  
+  .main-issue-items {
+    padding: 0px 10px 30px 10px;
+    height: 100%;
+    margin: 0;
+  }
+  
+}
+
+.header-block-right {
+  padding: 0;
+  position:relative;
+  z-index: 1;
+  
+  > a {
+    color: white;
+  }
+  
+  h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    padding: 10px;
+    margin: 0;
+    
+  }
+  
+  ul {
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+  
+}
+
+.header-block-right:after {
+  background-image: url("header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0.5!important;
+  filter:alpha(opacity=50);
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+
+// news categories
+
+.news-category {
+  
+}
+
+.news-category-item {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+
+// sports section side
+
+.sports-side {
+  padding: 0;
+}
+
+.sports-side-header {
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid rgba(192,192,192,.5);
+}
+
+.sports-side-heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.sports-side-link {
+  font-size: 12px;
+}
+
+.sports-side-link > i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.sport-side-content {
+  padding: 20px 10px 20px 10px;
+}
+
+.sports-point {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+// stock
+
+.stock-name {
+  font-weight: normal;
+}
+
+.stock-number {
+  font-weight: 600;
+}
+
+.stock-percentage-increase {
+  font-weight: 600;
+  color: #19AB4F;
+}
+
+.stock-percentage-decrease {
+  font-weight: 600;
+  color: #D33A2F;
+}
